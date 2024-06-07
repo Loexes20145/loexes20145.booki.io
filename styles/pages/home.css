@@ -13,7 +13,8 @@ main > section {
 }
  
 section .linkBox {
-    margin: 15px auto;
+    margin: 15px;
+    display: block;
 }
 
 
@@ -37,6 +38,8 @@ main .container {
 
 .container > section {
     padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .sectionHot {
@@ -71,9 +74,9 @@ main .container {
     padding: 30px;
 }
 
-.sectionActivity a:first-child {
+/* .sectionActivity a:first-child {
     margin-top: 30px;
-}
+} */
 
 .filter {
     margin: auto;
@@ -105,9 +108,16 @@ main .container {
     margin-bottom: 10px;
 }
 
-.container > section .card {
+/* .container > section .card {
     margin-left: auto;
     margin-right: auto;
+} */
+
+.sectionHot > .sectionHotArticles,
+.sectionActivity > .sectionActivityArticles,
+.sectionSelec > .sectionSelecArticles {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -195,11 +205,11 @@ main .container {
         margin-top: 35px;
     }
 
-    .container .sectionActivity a:first-child {
+    /* .container .sectionActivity a:first-child {
         margin-top: 15px;
     }
 
     .container .sectionActivity a:last-child {
         margin-bottom: 15px;
-    }
+    } */
 }
