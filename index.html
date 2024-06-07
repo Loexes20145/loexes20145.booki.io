@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booki</title>
+    <script src="https://kit.fontawesome.com/6bb41701a8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header class="header">
+        <img class="logo" src="assets/Booki.svg" alt="Logo Booki">
+        <nav>
+            <ul class="menu">
+                <li class="menuItem menuItem__Active">
+                    <a href="#">Hébergements</a>
+                </li>
+                <li class="menuItem">
+                    <a href="#">Activités</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="mainHero">
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre-ville ou en pleine nature</p>
+        </div>
+        <div class="searchBar">
+            <div class="iconBox panLeft">
+                <img src="assets/icons/map.svg" class="icons" alt="icone">
+            </div>
+            <input type="text" placeholder="Marseille, France">
+            <button class="iconBox panRight">
+                <img src="assets/icons/lens.svg" class="icons" alt="icone">
+                <span>Rechercher</span>
+            </button>
+        </div>
+        <div class="filter">
+            <span>Filtres</span>
+            <div class="filterBox">
+                <button class="filterButton">
+                    <span class="filterButtonBox">
+                        <img class="icons" alt="icone" src="assets/icons/bill.svg">
+                        <span>Économique</span>
+                    </span>
+                </button>
+                <button class="filterButton">
+                    <span class="filterButtonBox">
+                        <img class="icons" alt="icone" src="assets/icons/person.svg">
+                        <span>Familial</span>
+                    </span>
+                </button>
+                <button class="filterButton filterButton__Active">
+                    <span class="filterButtonBox">
+                        <img class="icons" alt="icone" src="assets/icons/heart.svg">
+                        <span>Romantique</span>
+                    </span>
+                </button>
+                <button class="filterButton">
+                    <span class="filterButtonBox">
+                        <img class="icons" alt="icone" src="assets/icons/hot.svg">
+                        <span>Nos pépites</span>
+                    </span>
+                </button>
+            </div>
+        </div>
+        <div class="mainInfo"><div class="infoMark"><i class="icons fa-solid fa-info"></i></div> <span>Plus de 500 logements sont disponibles dans cette ville</span></div>
+        <div class="container">
+            <section class="sectionHot">
+                <div class="sectionHotTitle">
+                    <h2>Les plus popuplaires</h2>
+                    <i class="icons fa-solid fa-chart-line"></i>
+                </div>
+                <div class="sectionHotArticles">
+                    <a class="linkBox" href="#">
+                        <article class="card cardTimber__Wide card1">
+                            <picture>
+                                <source srcset="assets/img/desktop/image1.png" media="(min-width: 1440px)">
+                                <source srcset="assets/img/wide/image1.png" media="(min-width: 1024px)">
+                                <img src="assets/img/mobile/image1.png" alt="Chambre à l'hôtel Le soleil du matin">
+                            </picture>
+                            <div class="cardText">
+                                <h3>Hôtel Le soleil du matin</h3>
+                                <p>Nuit à partir de <strong>25€</strong></p>
+                                <div class="starRate starIcon">
+                                    <i class="fa-solid fa-star" style="color: #0065fc;"></i>
+                                    <i class="fa-solid fa-star" style="color: #0065fc;"></i>
+                                    <i class="fa-solid fa-star" style="color: #0065fc;"></i>
+                                    <i class="fa-solid fa-star" style="color: #0065fc;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f2f2f2;"></i>
+                      </div>
+                        </article>
+                    </a>
+                    <a class="linkBox" href="#">
+                        <article class="card cardTimber__Wide card2">
+                            <picture>
+                                <source srcset="assets/img/desktop/image2.png" media="(min-width: 1440px)">
+                                <source srcset="assets/img/wide/image2.png" media="(min-width: 1024px)">
+                                <img src="assets/img/mobile/image2.png" alt="Chambre à l'hôtel Au coeur de l'eau">
+                            </picture>
+                            <div class="cardText">
+                                <h3>Chambre d'hôtes Au coeur de l'eau</h3>
+                                <p>Nuit à partir de <strong>71€</strong></p>
+                                <div class="starRate starIcon">
+                                    <i class="fa-solid fa-star" style="color: #0065fc;"></i>
+                                    <i class="fa-solid fa-star" style="color: #0065fc;"></i>
+                                    <i class="fa-solid fa-star" style="color: #0065fc;"></i>
+                                    <i class="fa-solid fa-star" style="color: #0065fc;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f2f2f2;"></i>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                    <a class="linkBox" href="#">
+                        <article class="card cardTimber__Wide card3">
+                            <picture>
+                                <source srcset="assets/img/desktop/image3.png" media="(min-width: 1440px)">
+                                <source srcset="assets/img/wide/image3.png" media="(min-width: 1024px)">
+                                <img src="assets/img/mobile/image3.png" alt="Chambre à l'hôtel Bleu et Blanc">
+                            </picture>
+                            <div class="cardText">
+                                <h3>Hôtel Bleu et Blanc</h3>
+                                <p>Nuit à partir de <strong>68€</strong></p>
+                                <div class="starRate starIcon">
+                                    <i class="fa-solid fa-star" style="color: #0065fc;"></i>
+                                    <i class="fa-solid fa-star" style="color: #0065fc;"></i>
+                                    <i class="fa-solid fa-star" style="color: #0065fc;"></i>
+                                    <i class="fa-solid fa-star" style="color: #0065fc;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f2f2f2;"></i>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                </div>
+            </section>
+            <section class="sectionSelec">
+                <h2>Hébergements à Marseille</h2>
+                <div class="sectionSelecArticles">
+                    <a class="linkBox" href="#">
+                        <article class="card cardTimber__Label card4">
+                            <picture>
+                                <source srcset="assets/img/desktop/image4.png" media="(min-width: 1440px)">
+                                <source srcset="assets/img/wide/image4.png" media="(min-width: 1024px)">
+                                <img src="assets/img/mobile/image4.png" alt="Chambre à l'hôtel du port">
+                            </picture>
+                            <div class="cardText">
+                                <h3>Hôtel du port</h3>
+                                <p>Nuit à partir de <strong>52€</strong></p>
+                                <div class="starRate starIcon">
+                                    <i class="fa-solid fa-star" style="color: #0065fc;"></i>
+                                    <i class="fa-solid fa-star" style="color: #0065fc;"></i>
+                                    <i class="fa-solid fa-star" style="color: #0065fc;"></i>
+                                    <i class="fa-solid fa-star" style="color: #0065fc;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f2f2f2;"></i>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                    <a class="linkBox" href="#">
+                        <article class="card cardTimber__Label card5">
+                            <picture>
+                                <source srcset="assets/img/desktop/image5.png" media="(min-width: 1440px)">
+                                <source srcset="assets/img/wide/image5.png" media="(min-width: 1024px)">
+                                <img src="assets/img/mobile/image5.png" alt="Chambre à l'hôtel Chez Amina">
+                            </picture>
+                            <div class="cardText">
+                                <h3>Hôtel Chez Amina</h3>
+                                <p>Nuit à partir de <strong>96€</strong></p>
+                                <div class="starRate starIcon">
+                                    <i class="fa-solid fa-star" style="color: #0065fc;"></i>
+                                    <i class="fa-solid fa-star" style="color: #0065fc;"></i>
+                                    <i class="fa-solid fa-star" style="color: #0065fc;"></i>
+                                    <i class="fa-solid fa-star" style="color: #0065fc;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f2f2f2;"></i>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                    <a class="linkBox" href="#">
+                        <article class="card cardTimber__Label card6">
+                            <picture>
+                                <source srcset="assets/img/desktop/image6.png" media="(min-width: 1440px)">
+                                <source srcset="assets/img/wide/image6.png" media="(min-width: 1024px)">
+                                <img src="assets/img/mobile/image6.png" alt="Chambre à l'hôtel Les mouettes">
+                            </picture>
+                            <div class="cardText">
+                                <h3>Hôtel Les mouettes</h3>
+                                <p>Nuit à partir de <strong>76€</strong></p>
+                                <div class="starRate starIcon">
+                                    <i class="fa-solid fa-star" style="color: #0065fc;"></i>
+                                    <i class="fa-solid fa-star" style="color: #0065fc;"></i>
+                                    <i class="fa-solid fa-star" style="color: #0065fc;"></i>
+                                    <i class="fa-solid fa-star" style="color: #0065fc;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f2f2f2;"></i>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                    <a class="linkBox" href="#">
+                        <article class="card cardTimber__Label card7">
+                            <picture>
+                                <source srcset="assets/img/desktop/image7.png" media="(min-width: 1440px)">
+                                <source srcset="assets/img/wide/image7.png" media="(min-width: 1024px)">
+                                <img src="assets/img/mobile/image7.png" alt="Chambre à l'hôtel de la mer">
+                            </picture>
+                            <div class="cardText">
+                                <h3>Hôtel de la mer</h3>
+                                <p>Nuit à partir de <strong>46€</strong></p>
+                                <div class="starRate starIcon">
+                                    <i class="fa-solid fa-star" style="color: #0065fc;"></i>
+                                    <i class="fa-solid fa-star" style="color: #0065fc;"></i>
+                                    <i class="fa-solid fa-star" style="color: #0065fc;"></i>
+                                    <i class="fa-solid fa-star" style="color: #0065fc;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f2f2f2;"></i>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                    <a class="linkBox" href="#">
+                        <article class="card cardTimber__Label card8">
+                            <picture>
+                                <source srcset="assets/img/desktop/image8.png" media="(min-width: 1440px)">
+                                <source srcset="assets/img/wide/image8.png" media="(min-width: 1024px)">
+                                <img src="assets/img/mobile/image8.png" alt="Chambre à l'auberge La Canebière">
+                            </picture>
+                            <div class="cardText">
+                                <h3>Auberge La Canebière</h3>
+                                <p>Nuit à partir de <strong>25€</strong></p>
+                                <div class="starRate starIcon">
+                                    <i class="fa-solid fa-star" style="color: #0065fc;"></i>
+                                    <i class="fa-solid fa-star" style="color: #0065fc;"></i>
+                                    <i class="fa-solid fa-star" style="color: #0065fc;"></i>
+                                    <i class="fa-solid fa-star" style="color: #0065fc;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f2f2f2;"></i>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                    <a class="linkBox" href="#">
+                        <article class="card cardTimber__Label card9">
+                            <picture>
+                                <source srcset="assets/img/desktop/image9.png" media="(min-width: 1440px)">
+                                <source srcset="assets/img/wide/image9.png" media="(min-width: 1024px)">
+                                <img src="assets/img/mobile/image9.png" alt="Chambre à l'auberge Le panier">
+                            </picture>
+                            <div class="cardText">
+                                <h3>Auberge Le Panier</h3>
+                                <p>Nuit à partir de <strong>23€</strong></p>
+                                <div class="starRate starIcon">
+                                    <i class="fa-solid fa-star" style="color: #0065fc;"></i>
+                                    <i class="fa-solid fa-star" style="color: #0065fc;"></i>
+                                    <i class="fa-solid fa-star" style="color: #0065fc;"></i>
+                                    <i class="fa-solid fa-star" style="color: #0065fc;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f2f2f2;"></i>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                </div>
+                <a class="seeMore">Afficher plus</a>
+            </section>
+            <section class="sectionActivity">
+                <h2>Activités à Marseille</h2>
+                <div class="sectionActivityArticles">
+                    <a class="linkBox" href="#">
+                        <article class="card cardTimber__Lengthy card10">
+                            <picture>
+                                <source srcset="assets/img/desktop/image10.png" media="(min-width: 1440px)">
+                                <source srcset="assets/img/wide/image10.png" media="(min-width: 1024px)">
+                                <img src="assets/img/mobile/image10.png" alt="Photo du Vieux-Port">
+                            </picture>
+                            <div class="cardText">
+                                <h3>Vieux-Port</h3>
+                            </div>
+                        </article>
+                    </a>
+                    <a class="linkBox" href="#">
+                        <article class="card cardTimber__Lengthy card11">
+                            <picture>
+                                <source srcset="assets/img/desktop/image11.png" media="(min-width: 1440px)">
+                                <source srcset="assets/img/wide/image11.png" media="(min-width: 1024px)">
+                                <img src="assets/img/mobile/image11.png" alt="Photo du port de Pomègues">
+                            </picture>
+                            <div class="cardText">
+                                <h3>Fort de Pomègues</h3>
+                            </div>
+                        </article>
+                    </a>
+                    <a class="linkBox" href="#">
+                        <article class="card cardTimber__Lengthy card12">
+                            <picture>
+                                <source srcset="assets/img/desktop/image12.png" media="(min-width: 1440px)">
+                                <source srcset="assets/img/wide/image12.png" media="(min-width: 1024px)">
+                                <img src="assets/img/mobile/image12.png" alt="Photo du Parc National de Calanques">
+                            </picture>
+                            <div class="cardText">
+                                <h3>Parc National de Calanques</h3>
+                            </div>
+                        </article>
+                    </a>
+                    <a class="linkBox" href="#">
+                        <article class="card cardTimber__Lengthy">
+                            <picture>
+                                <source srcset="assets/img/desktop/image13.png" media="(min-width: 1440px)">
+                                <source srcset="assets/img/wide/image13.png" media="(min-width: 1024px)">
+                                <img src="assets/img/mobile/image13.png" alt="Photo de Notre-Dame-de-la-Garde">
+                            </picture>
+                            <div class="cardText">
+                                <h3>Notre-Dame-de-la-Garde</h3>
+                            </div>
+                        </article>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div>
+            <span>À propos</span>
+            <a href="#">Foncitonnement du site</a>
+            <a href="#">Conditions générales</a>
+            <a href="#">Donnéés et confidentialité</a>
+        </div>
+        <div>
+            <span>Nos Hébergements</span>
+            <a href="#">Charte qualité</a>
+            <a href="#">Proposer votre hôtel</a>
+        </div>
+        <div>
+            <span>Assistance</span>
+            <a href="#">Centre d'aide</a>
+            <a href="#">Nous contacter</a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,238 @@
+body {
+    background-color: var(--white);
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+main {
+    padding: 0 20px;
+}
+
+main > * {
+    margin: 35px 0;
+}
+ 
+.linkBox {
+    display: block;
+    margin: 15px auto;
+}
+
+main .container {
+    margin-left: -20px;
+    margin-right: -20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.container > section {
+    padding: 30px 20px;
+}
+
+.sectionHot {
+    background-color: var(--grey);
+    margin-bottom: 15px;
+}
+
+.sectionHotTitle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.sectionSelec {
+    padding: 20px;
+    margin-bottom: 35px;
+}
+
+.sectionSelec .seeMore {
+    font-family: var(--subText-font);
+    font-size: var(--subText-font-size);
+    font-weight: var(--subText-font-weight);
+    line-height: var(--subText-line-height);
+    border: 0;
+    cursor: pointer;
+}
+
+.sectionActivity {
+    padding: 30px;
+}
+
+.sectionActivity a:first-child {
+    margin-top: 30px;
+}
+
+.filter {
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-line-pack: justify;
+        align-content: space-between;
+    gap: 20px;
+}
+
+.filterBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 10px;
+}
+
+.filterBox > button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container > section .card {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (min-width: 810px) and (max-width: 1023px) {
+    .container .sectionHotArticles,
+    .container .sectionActivityArticles,
+    .container .sectionSelecArticles {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+
+    .container .sectionHot {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .container .sectionHotArticles {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+    }
+
+    main .container section .linkBox {
+        margin: 15px auto;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    main {
+        padding: 0 50px;
+    }
+    
+    .container > section {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 15px;
+    }
+
+    section .sectionHotArticles,
+    section .sectionSelecArticles,
+    section .sectionActivityArticles {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    .sectionHot {
+        -webkit-box-ordinal-group: 3;
+            -ms-flex-order: 2;
+                order: 2;
+        margin: 15px 0 35px 0;
+    }
+
+    .sectionSelec {
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1;
+    }
+
+    .sectionActivity {
+        -webkit-box-ordinal-group: 4;
+            -ms-flex-order: 3;
+                order: 3;
+    }
+}
+
+@media only screen and (min-width: 1171px) and (max-width: 1439px) {
+    body {
+        max-width: 1171px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    main .container {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+
+    .container > section {
+        padding: 30px;
+        margin: 0;
+    }
+
+    .container .sectionHot {
+        max-width: 379px;
+    }
+
+    .container .sectionSelec {
+        max-width: 821px;
+    }
+
+    .container .sectionActivity {
+        -webkit-box-flex: 1;
+            -ms-flex-positive: 1;
+                flex-grow: 1;
+        margin-top: 35px;
+    }
+
+    .container .sectionActivity a:first-child {
+        margin-top: 15px;
+    }
+
+    .container .sectionActivity a:last-child {
+        margin-bottom: 15px;
+    }
+}

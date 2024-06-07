@@ -1,0 +1,22 @@
+.starIcon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 2px;
+}
+
+.starIcon input {
+    display: none;
+}
+
+/* .starIcon input ~ label {
+    color: var(--grey);
+}
+
+.starIcon input:checked ~ label {
+    color: var(--blue);
+} */

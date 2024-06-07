@@ -1,0 +1,96 @@
+.header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.header .logo {
+    width: 61.1px;
+    height: 19px;
+    padding: 30px 50px;
+    margin: 0 auto;
+}
+
+.header .menu {
+    height: 36px;
+    width: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+}
+
+.header .menu li.menuItem {
+    line-height: 16px;
+    padding-bottom: 1.125rem;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    text-align: center;
+    border-bottom: 2px solid var(--grey);
+}
+
+.header .menu li.menuItem:hover {
+    border-bottom-color: var(--blue);
+}
+
+.header .menu li.menuItem:active {
+    border-bottom-color: var(--blue);
+}
+
+.header .menu li.menuItem__Active {
+    border-bottom-color: var(--blue);
+}
+
+.header .menu li.menuItem:hover a,
+.header .menu li.menuItem__Active a,
+.header .menu li.menuItem:active a {
+    color: var(--blue);
+}
+
+@media only screen and (min-width: 1024px) {
+    .header {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+    }
+
+    .header .logo {
+        margin-left: 0;
+    }
+
+    .header .menu {
+        width: 244px;
+        margin: 0 50px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        gap: 68px;
+    }
+
+    .header .menu li.menuItem {
+        padding-bottom: 0;
+        padding-top: 1.125rem;
+        border-bottom: none;
+        border-top: 2px solid var(--white);
+    }
+
+    .header .menu li.menuItem:hover {
+        border-top: 2px solid var(--blue);
+    }
+    
+    .header .menu li.menuItem:active {
+        border-top: 2px solid var(--blue);
+    }
+    
+    .header .menu li.menuItem__Active {
+        border-top: 2px solid var(--blue);
+    }
+}
