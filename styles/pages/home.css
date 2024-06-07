@@ -69,7 +69,6 @@ main > .container {
 .container > .sectionHot,
 .container > .sectionActivity,
 .container > .sectionSelec {
-    /* padding: 30px 20px; */
     display: flex;
     flex-direction: column;
 }
@@ -142,19 +141,6 @@ section .linkBox {
     margin: 15px;
     display: block;
 }
-
-/* .sectionActivity {
-    padding: 30px;
-} */
-
-/* .sectionActivity a:first-child {
-    margin-top: 30px;
-} */
-
-/* .container > section .card {
-    margin-left: auto;
-    margin-right: auto;
-} */
 
 
 @media only screen and (min-width: 1024px) {
@@ -241,12 +227,4 @@ section .linkBox {
                 flex-grow: 1;
         margin-top: 35px;
     }
-
-    /* .container .sectionActivity a:first-child {
-        margin-top: 15px;
-    }
-
-    .container .sectionActivity a:last-child {
-        margin-bottom: 15px;
-    } */
 }
