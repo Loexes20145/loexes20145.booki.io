@@ -196,7 +196,9 @@ section .linkBox {
 }
 
 @media only screen and (min-width: 1440px) {
-    main .container {
+    main > .container {
+        margin-left: 0;
+        margin-right: 0;
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
             -ms-flex-direction: row;
@@ -211,6 +213,16 @@ section .linkBox {
     .container > section {
         padding: 30px;
         margin: 0;
+    }
+
+    .sectionHot > .sectionHotArticles,
+    .sectionActivity > .sectionActivityArticles,
+    .sectionSelec > .sectionSelecArticles {
+        justify-content: flex-start;
+    }
+
+    .sectionSelec .linkBox {
+        margin: 15px 15px 15px 0;
     }
 
     .container .sectionHot {
