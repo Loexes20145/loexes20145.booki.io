@@ -44,12 +44,7 @@
     border-bottom-color: var(--blue);
 }
 
-.header .menu li.menuItem__Active {
-    border-bottom-color: var(--blue);
-}
-
 .header .menu li.menuItem:hover a,
-.header .menu li.menuItem__Active a,
 .header .menu li.menuItem:active a {
     color: var(--blue);
 }
@@ -87,10 +82,6 @@
     }
     
     .header .menu li.menuItem:active {
-        border-top: 2px solid var(--blue);
-    }
-    
-    .header .menu li.menuItem__Active {
         border-top: 2px solid var(--blue);
     }
 }

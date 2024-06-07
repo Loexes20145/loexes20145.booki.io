@@ -20,10 +20,6 @@
     background-color: var(--light);
 }
 
-.filterButton__Active {
-    background-color: var(--light);
-}
-
 .filterButtonBox {
     display: -webkit-box;
     display: -ms-flexbox;
