@@ -93,20 +93,6 @@
     color: var(--grey);
 }
 
-@media only screen and (min-width: 810px) and (max-width: 1023px) {
-    a.linkBox {
-        -webkit-transform: scale(.8);
-            -ms-transform: scale(.8);
-                transform: scale(.8);
-    }
-
-    .sectionHotArticles a.linkBox {
-        -webkit-transform: scale(1);
-            -ms-transform: scale(1);
-                transform: scale(1);
-    }
-}
-
 @media only screen and (min-width: 1024px) {
     .cardTimber__Label {
         width: 268px;

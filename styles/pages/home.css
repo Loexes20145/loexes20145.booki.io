@@ -12,9 +12,15 @@ main > section {
     margin: 35px 0;
 }
  
-.linkBox {
-    display: block;
+section .linkBox {
     margin: 15px auto;
+}
+
+
+section > h2,
+section > .seeMore {
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 main .container {
@@ -104,40 +110,6 @@ main .container {
     margin-right: auto;
 }
 
-@media only screen and (min-width: 810px) and (max-width: 1023px) {
-    .container .sectionHotArticles,
-    .container .sectionActivityArticles,
-    .container .sectionSelecArticles {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: row;
-                flex-direction: row;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-    }
-
-    .container .sectionHot {
-        padding-left: 20%;
-        padding-right: 20%;
-    }
-
-    .container .sectionHotArticles {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -ms-flex-wrap: nowrap;
-            flex-wrap: nowrap;
-    }
-
-    main .container section .linkBox {
-        margin: 15px auto;
-    }
-}
-
 @media only screen and (min-width: 1024px) {
     main {
         padding: 0 50px;
@@ -187,12 +159,6 @@ main .container {
         -webkit-box-ordinal-group: 4;
             -ms-flex-order: 3;
                 order: 3;
-    }
-}
-
-@media only screen and (min-width: 1171px) and (max-width: 1439px) {
-    body {
-        max-width: 1171px;
     }
 }
 
