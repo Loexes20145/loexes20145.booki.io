@@ -37,7 +37,7 @@ main > .mainSection > div:last-child {
         flex-wrap: wrap;
     -ms-flex-line-pack: justify;
         align-content: space-between;
-    gap: 20px;
+    gap: 10px;
 }
 
 .filterBox {
@@ -46,12 +46,10 @@ main > .mainSection > div:last-child {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    gap: 10px;
 }
 
 .filterBox > button {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px 10px 10px 0;
 }
 
 main > .container {
@@ -74,11 +72,16 @@ main > .container {
 }
 
 .sectionHot > .sectionHotArticles,
-.sectionActivity > .sectionActivityArticles,
-.sectionSelec > .sectionSelecArticles {
+.sectionSelec > .sectionSelecArticles,
+.sectionActivity > .sectionActivityArticles {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
+}
+ 
+section .linkBox {
+    margin: 15px 0 15px 0;
+    display: block;
 }
 
 .sectionHot {
@@ -127,6 +130,7 @@ main > .container {
 
 .sectionActivity {
     margin-bottom: 35px;
+    background-color: #ccc;
 }
 
 .sectionActivityTitle {
@@ -136,42 +140,33 @@ main > .container {
 .sectionActivityArticles {
     margin: 15px;
 }
- 
-section .linkBox {
-    margin: 15px;
-    display: block;
-}
 
 
 @media only screen and (min-width: 1024px) {
     main {
         padding: 0 50px;
     }
+
+    main > .container {
+        margin-left: 0;
+        margin-right: 0;
+    }
     
     .container > section {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
         margin-left: 0;
         margin-right: 0;
         border-radius: 15px;
+        padding: 30px;
     }
 
-    section .sectionHotArticles,
-    section .sectionSelecArticles,
-    section .sectionActivityArticles {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
+    .sectionHot > .sectionHotArticles,
+    .sectionSelec > .sectionSelecArticles,
+    .sectionActivity > .sectionActivityArticles {
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
+        margin: 0;
+        justify-content: space-between;
     }
 
     .sectionHot {
@@ -181,6 +176,10 @@ section .linkBox {
         margin: 15px 0 35px 0;
     }
 
+    .sectionHotTitle {
+        margin: 0 0 5px 0;
+    }
+
     .sectionSelec {
     background-color: var(--grey);
     -webkit-box-ordinal-group: 2;
@@ -188,17 +187,27 @@ section .linkBox {
                 order: 1;
     }
 
+    .sectionSelecTitle {
+        margin: 0 0 15px 0;
+    }
+    
+    .sectionSelec .seeMore {
+        margin: 15px 0 0 0;
+    }
+
     .sectionActivity {
         -webkit-box-ordinal-group: 4;
             -ms-flex-order: 3;
                 order: 3;
     }
+
+    .sectionActivityTitle {
+        margin: 0 0 15px 0;
+    }
 }
 
 @media only screen and (min-width: 1440px) {
     main > .container {
-        margin-left: 0;
-        margin-right: 0;
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
             -ms-flex-direction: row;
@@ -211,32 +220,30 @@ section .linkBox {
     }
 
     .container > section {
-        padding: 30px;
         margin: 0;
     }
 
-    .sectionHot > .sectionHotArticles,
-    .sectionActivity > .sectionActivityArticles,
-    .sectionSelec > .sectionSelecArticles {
-        justify-content: flex-start;
-    }
-
-    .sectionSelec .linkBox {
-        margin: 15px 15px 15px 0;
-    }
-
-    .container .sectionHot {
+    .container > .sectionHot {
         max-width: 379px;
     }
 
-    .container .sectionSelec {
-        max-width: 821px;
+    .sectionHot > .sectionHotTitle {
+        margin-bottom: 15px;
     }
 
-    .container .sectionActivity {
+    .sectionHot > .sectionHotArticles {
+        flex-direction: column;
+    }
+
+    .container > .sectionSelec {
+        max-width: 811px;
+    }
+
+    .container > .sectionActivity {
         -webkit-box-flex: 1;
             -ms-flex-positive: 1;
                 flex-grow: 1;
         margin-top: 35px;
+        margin-bottom: 35px;
     }
 }
