@@ -8,7 +8,7 @@ main {
     padding: 0 20px;
 }
 
-main > section {
+main > .mainSection {
     margin: 35px 0;
 }
 
@@ -87,6 +87,7 @@ section .linkBox {
 .sectionHot {
     background-color: var(--grey);
     margin-bottom: 15px;
+    padding: 30px 20px 15px 20px;
 }
 
 .sectionHotTitle {
@@ -97,24 +98,11 @@ section .linkBox {
         -ms-flex-pack: justify;
             justify-content: space-between;
     align-items: center;
-    margin: 30px 20px 0 20px;
-}
-
-.sectionHotArticles {
-    margin: 0 5px 15px 5px;
 }
 
 .sectionSelec {
-    padding-bottom: 20px;
+    padding: 20px;
     margin-bottom: 35px;
-}
-
-.sectionSelecTitle {
-    margin: 20px 20px 0 20px;
-}
-
-.sectionSelecArticles {
-    margin: 0 5px 0 5px;
 }
 
 .sectionSelec .seeMore {
@@ -124,21 +112,11 @@ section .linkBox {
     line-height: var(--subText-line-height);
     border: 0;
     cursor: pointer;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 .sectionActivity {
     margin-bottom: 35px;
-    background-color: #ccc;
-}
-
-.sectionActivityTitle {
-    margin: 30px 30px 0 30px;
-}
-
-.sectionActivityArticles {
-    margin: 15px;
+    padding: 30px 30px 15px 30px;
 }
 
 
@@ -165,19 +143,19 @@ section .linkBox {
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
-        margin: 0;
         justify-content: space-between;
     }
 
-    .sectionHot {
+    .container > .sectionHot {
         -webkit-box-ordinal-group: 3;
             -ms-flex-order: 2;
                 order: 2;
         margin: 15px 0 35px 0;
+        padding-bottom: 15px;
     }
 
     .sectionHotTitle {
-        margin: 0 0 5px 0;
+        margin-bottom: 5px;
     }
 
     .sectionSelec {
@@ -188,21 +166,22 @@ section .linkBox {
     }
 
     .sectionSelecTitle {
-        margin: 0 0 15px 0;
+        margin-bottom: 15px;
     }
     
     .sectionSelec .seeMore {
-        margin: 15px 0 0 0;
+        margin-top: 15px;
     }
 
-    .sectionActivity {
+    .container > .sectionActivity {
         -webkit-box-ordinal-group: 4;
             -ms-flex-order: 3;
                 order: 3;
+        padding-bottom: 15px;
     }
 
     .sectionActivityTitle {
-        margin: 0 0 15px 0;
+        margin-bottom: 15px;
     }
 }
 
@@ -219,12 +198,10 @@ section .linkBox {
                 justify-content: space-between;
     }
 
-    .container > section {
-        margin: 0;
-    }
-
     .container > .sectionHot {
         max-width: 379px;
+        max-height: 569px;
+        margin: 0;
     }
 
     .sectionHot > .sectionHotTitle {
@@ -237,6 +214,7 @@ section .linkBox {
 
     .container > .sectionSelec {
         max-width: 811px;
+        margin: 0;
     }
 
     .container > .sectionActivity {
