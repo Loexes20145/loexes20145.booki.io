@@ -51,7 +51,7 @@
 
 @media only screen and (min-width: 1024px) {
     .footer {
-        margin: 0 20px;
+        margin: 0 50px;
         padding: 20px;
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
@@ -69,11 +69,5 @@
 
     .footer div:first-child {
         margin-left: 0;
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-    .footer {
-        margin: 0 50px;
     }
 }
