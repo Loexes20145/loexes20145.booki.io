@@ -110,13 +110,17 @@ section .linkBox {
     font-size: var(--subText-font-size);
     font-weight: var(--subText-font-weight);
     line-height: var(--subText-line-height);
-    border: 0;
+    /* border: 0; */
     cursor: pointer;
 }
 
 .sectionActivity {
     margin-bottom: 35px;
     padding: 30px 30px 15px 30px;
+}
+
+.sectionActivityTitle {
+    margin-bottom: 15px;
 }
 
 
@@ -178,10 +182,6 @@ section .linkBox {
             -ms-flex-order: 3;
                 order: 3;
         padding-bottom: 15px;
-    }
-
-    .sectionActivityTitle {
-        margin-bottom: 15px;
     }
 }
 

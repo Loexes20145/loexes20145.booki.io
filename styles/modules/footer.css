@@ -37,9 +37,22 @@
     margin-bottom: 0;
 }
 
+.footer div * {
+    margin: 7.5px 0;
+}
+
+.footer div *:first-child {
+    margin-top: 0;
+}
+
+.footer div *:last-child {
+    margin-bottom: 0;
+}
+
 @media only screen and (min-width: 1024px) {
     .footer {
         margin: 0 20px;
+        padding: 20px;
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
             -ms-flex-direction: row;
