@@ -67,16 +67,26 @@ main > .container {
 .container > .sectionHot,
 .container > .sectionActivity,
 .container > .sectionSelec {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
 .sectionHot > .sectionHotArticles,
 .sectionSelec > .sectionSelecArticles,
 .sectionActivity > .sectionActivityArticles {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
  
 section .linkBox {
@@ -97,7 +107,9 @@ section .linkBox {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .sectionSelec {
@@ -147,7 +159,9 @@ section .linkBox {
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
 
     .container > .sectionHot {
@@ -209,7 +223,10 @@ section .linkBox {
     }
 
     .sectionHot > .sectionHotArticles {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 
     .container > .sectionSelec {
