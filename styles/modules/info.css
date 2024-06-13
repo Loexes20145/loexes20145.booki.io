@@ -24,6 +24,11 @@
             align-items: center;
 }
 
+.mainInfo .infoIcon {
+    width: 4px;
+    height: 10px;
+}
+
 .mainInfo span {
     font-size : var(--standard-font-size);
     font-weight : var(--standard-font-weight);

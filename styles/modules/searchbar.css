@@ -54,26 +54,36 @@
 .searchBar input::-webkit-input-placeholder {
     color: var(--black);
     opacity: 1;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .searchBar input::-moz-placeholder {
     color: var(--black);
     opacity: 1;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .searchBar input:-ms-input-placeholder {
     color: var(--black);
     opacity: 1;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .searchBar input::-ms-input-placeholder {
     color: var(--black);
     opacity: 1;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .searchBar input::placeholder {
     color: var(--black);
     opacity: 1;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .searchBar .panLeft {
@@ -96,7 +106,7 @@
 
 .searchBar .icons {
     width: 14px;
-    height: 15px;
+    height: 18px;
     color: var(--blue);
 }
 

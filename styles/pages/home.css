@@ -46,10 +46,11 @@ main > .mainSection > div:last-child {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    gap: 10px;
 }
 
 .filterBox > button {
-    margin: 10px 10px 10px 0;
+    margin: 10px 0 10px 0;
 }
 
 main > .container {
@@ -137,6 +138,19 @@ section .linkBox {
 
 
 @media only screen and (min-width: 1024px) {
+    .filter {
+        gap: 15px;
+    }
+
+    .filterBox {
+        gap: 15px;
+    }
+
+    /* .filterBox > button {
+        margin-right: 15px;
+    } */
+
+
     main {
         padding: 0 50px;
     }
@@ -200,6 +214,16 @@ section .linkBox {
 }
 
 @media only screen and (min-width: 1440px) {
+    .filter {
+        flex-direction: row;
+        align-items: baseline;
+    }
+
+    .filterBox > button {
+        margin: 0;
+    }
+
+
     main > .container {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
