@@ -16,6 +16,7 @@
     padding-left: 15px;
 }
 
+.filterButton:hover,
 .filterButton:active {
     background-color: var(--light);
 }

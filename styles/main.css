@@ -22,27 +22,27 @@
 
     /* Text configuration */
     --standard-font : 'Raleway';
-    --standard-font-size : 16px;
+    --standard-font-size : 1rem;
     --standard-font-weight : 500;
     --standard-line-height : auto;
 
     --filterText-font : 'Raleway';
-    --filterText-font-size : 18px;
+    --filterText-font-size : 1.125rem;
     --filterText-font-weight : 700;
     --filterText-line-height : auto;
 
     --subText-font : 'Raleway';
-    --subText-font-size : 18px;
+    --subText-font-size : 1.125rem;
     --subText-font-weight : 700;
     --subText-line-height : auto;
 
     --titleSection-font : 'Raleway';
-    --titleSection-font-size : 22px;
+    --titleSection-font-size : 1.375rem;
     --titleSection-font-weight : 700;
     --titleSection-line-height : auto;
     
     --cardTitle-font : 'Raleway';
-    --cardTitle-font-size : 16px;
+    --cardTitle-font-size : 1rem;
     --cardTitle-font-weight : 700;
     --cardTitle-line-height : auto;
 
@@ -79,12 +79,16 @@ h3 {
 }
 
 p {
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 a {
     text-decoration: none;
     color : var(--black);
+}
+
+a:hover, button:hover {
+    cursor: pointer;
 }
 
 i {
