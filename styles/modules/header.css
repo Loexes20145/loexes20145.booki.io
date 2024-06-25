@@ -9,8 +9,6 @@
 }
 
 .header .logo {
-    width: 61.1px;
-    height: 19px;
     padding: 30px 50px;
     margin: 0 auto;
 }
@@ -38,6 +36,7 @@
 
 .header .menu li.menuItem:hover {
     border-bottom-color: var(--blue);
+    cursor: pointer;
 }
 
 .header .menu li.menuItem:active {
