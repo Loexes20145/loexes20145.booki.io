@@ -1,15 +1,6 @@
 /* Modules */
 @import 'reset.scss';
 @import 'modules/components.scss';
-@import 'modules/header.scss';
-@import 'modules/footer.scss';
-@import 'modules/button.scss';
-@import 'modules/card.scss';
-@import 'modules/searchbar.scss';
-@import 'modules/info.scss';
-@import 'modules/hero.scss';
-@import 'modules/star.scss';
-@import 'pages/home.scss';
 
 /* Design system */
 :root {
@@ -72,3 +63,13 @@ span {
     font-weight : $subText-font-weight;
     line-height : $subText-line-height;
 }
+
+@import 'modules/header.scss';
+@import 'modules/footer.scss';
+@import 'modules/button.scss';
+@import 'modules/card.scss';
+@import 'modules/searchbar.scss';
+@import 'modules/info.scss';
+@import 'modules/hero.scss';
+@import 'modules/star.scss';
+@import 'pages/home.scss';
