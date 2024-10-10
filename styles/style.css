@@ -23,6 +23,68 @@ ol, ul {
 
 /* Colors */
 /* Text configuration */
+/* Design system */
+:root {
+  background-color: #F2F2F2;
+  color: #000000;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: auto;
+}
+
+h1 {
+  font-family: "Raleway";
+  font-size: 1.375rem;
+  font-weight: 700;
+  line-height: auto;
+}
+
+h2 {
+  font-family: "Raleway";
+  font-size: 1.375rem;
+  font-weight: 700;
+  line-height: auto;
+}
+
+h3 {
+  font-family: "Raleway";
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: auto;
+}
+
+p {
+  font-size: 0.875rem;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover, button:hover {
+  cursor: pointer;
+}
+
+i {
+  color: #0065FC;
+}
+
+strong {
+  font-weight: 700;
+}
+
+span {
+  font-family: "Raleway";
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: auto;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -818,67 +880,6 @@ section .linkBox {
   .sectionSelec > .sectionSelecArticles {
     justify-content: space-between;
   }
-}
-/* Design system */
-:root {
-  background-color: #F2F2F2;
-  color: #000000;
-}
-
-body {
-  font-family: "Raleway", sans-serif;
-  font-size: 1rem;
-  font-weight: 500;
-  line-height: auto;
-}
-
-h1 {
-  font-family: "Raleway";
-  font-size: 1.375rem;
-  font-weight: 700;
-  line-height: auto;
-}
-
-h2 {
-  font-family: "Raleway";
-  font-size: 1.375rem;
-  font-weight: 700;
-  line-height: auto;
-}
-
-h3 {
-  font-family: "Raleway";
-  font-size: 1rem;
-  font-weight: 700;
-  line-height: auto;
-}
-
-p {
-  font-size: 0.875rem;
-}
-
-a {
-  text-decoration: none;
-  color: #000000;
-}
-
-a:hover, button:hover {
-  cursor: pointer;
-}
-
-i {
-  color: #0065FC;
-}
-
-strong {
-  font-weight: 700;
-}
-
-span {
-  font-family: "Raleway";
-  font-size: 1.125rem;
-  font-weight: 700;
-  line-height: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
