@@ -1,5 +1,5 @@
 body {
-    background-color: var(--white);
+    background-color: $white;
     margin: 0 auto;
     max-width: 1440px;
 }
@@ -96,7 +96,7 @@ section .linkBox {
 }
 
 .sectionHot {
-    background-color: var(--grey);
+    background-color: $grey;
     margin-bottom: 15px;
     padding: 30px 20px 15px 20px;
 }
@@ -119,10 +119,10 @@ section .linkBox {
 }
 
 .sectionSelec .seeMore {
-    font-family: var(--subText-font);
-    font-size: var(--subText-font-size);
-    font-weight: var(--subText-font-weight);
-    line-height: var(--subText-line-height);
+    font-family: $subText-font;
+    font-size: $subText-font-size;
+    font-weight: $subText-font-weight;
+    line-height: $subText-line-height;
 }
 
 .sectionActivity {
@@ -199,7 +199,7 @@ section .linkBox {
     }
 
     .sectionSelec {
-    background-color: var(--grey);
+    background-color: $grey;
     -webkit-box-ordinal-group: 2;
             -ms-flex-order: 1;
                 order: 1;

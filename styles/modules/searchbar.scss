@@ -2,8 +2,8 @@
     width: 335px;
     height: 49px;
     position: relative;
-    border-top: 1px solid  var(--grey);
-    border-bottom: 1px solid  var(--grey);
+    border-top: 1px solid  $grey;
+    border-bottom: 1px solid  $grey;
     border-radius: 16px;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .searchBar .panRight {
-    background-color: var(--blue);
+    background-color: $blue;
     border: 0px;
     border-radius: 15px;
     position: absolute;
@@ -47,35 +47,35 @@
 }
 
 .searchBar input::-webkit-input-placeholder {
-    color: var(--black);
+    color: $black;
     opacity: 1;
     font-weight: bold;
     font-size: 1rem;
 }
 
 .searchBar input::-moz-placeholder {
-    color: var(--black);
+    color: $black;
     opacity: 1;
     font-weight: bold;
     font-size: 1rem;
 }
 
 .searchBar input:-ms-input-placeholder {
-    color: var(--black);
+    color: $black;
     opacity: 1;
     font-weight: bold;
     font-size: 1rem;
 }
 
 .searchBar input::-ms-input-placeholder {
-    color: var(--black);
+    color: $black;
     opacity: 1;
     font-weight: bold;
     font-size: 1rem;
 }
 
 .searchBar input::placeholder {
-    color: var(--black);
+    color: $black;
     opacity: 1;
     font-weight: bold;
     font-size: 1rem;
@@ -101,7 +101,7 @@
 .searchBar .icons {
     width: 14px;
     height: 18px;
-    color: var(--blue);
+    color: $blue;
 }
 
 .searchBar span {
@@ -125,7 +125,7 @@
 
     .searchBar span {
         display: inline-block;
-        color: var(--white);
+        color: $white;
         padding: 0 16px;
     }
 }

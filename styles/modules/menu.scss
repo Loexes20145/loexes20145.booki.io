@@ -10,22 +10,22 @@
     padding-bottom: 1.125rem;
     flex-grow: 1;
     text-align: center;
-    border-bottom: 2px solid var(--grey);
+    border-bottom: 2px solid $grey;
 }
 
 .menu .menuItem:hover {
-    color: var(--blue);
-    border-bottom-color: var(--blue);
+    color: $blue;
+    border-bottom-color: $blue;
 }
 
 .menu .menuItem:active {
-    color: var(--blue);
-    border-bottom-color: var(--blue);
+    color: $blue;
+    border-bottom-color: $blue;
 }
 
 .menu .menuItem__Active {
-    color: var(--blue);
-    border-bottom-color: var(--blue);
+    color: $blue;
+    border-bottom-color: $blue;
 }
 
 @media only screen and (min-width: 810px) {
@@ -39,14 +39,14 @@
     }
 
     .menu .menuItem:hover {
-        border-top: 2px solid var(--blue);
+        border-top: 2px solid $blue;
     }
     
     .menu .menuItem:active {
-        border-top: 2px solid var(--blue);
+        border-top: 2px solid $blue;
     }
     
     .menu .menuItem__Active {
-        border-top: 2px solid var(--blue);
+        border-top: 2px solid $blue;
     }
 }

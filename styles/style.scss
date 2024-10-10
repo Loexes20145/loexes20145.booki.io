@@ -1,0 +1,74 @@
+/* Modules */
+@import 'reset.scss';
+@import 'modules/components.scss';
+@import 'modules/header.scss';
+@import 'modules/footer.scss';
+@import 'modules/button.scss';
+@import 'modules/card.scss';
+@import 'modules/searchbar.scss';
+@import 'modules/info.scss';
+@import 'modules/hero.scss';
+@import 'modules/star.scss';
+@import 'pages/home.scss';
+
+/* Design system */
+:root {
+    background-color : $grey;
+    color : $black
+}
+
+body {
+    font-family : $standard-font, sans-serif;
+    font-size : $standard-font-size;
+    font-weight : $standard-font-weight;
+    line-height : $standard-line-height;
+}
+
+h1 {
+    font-family : $titleSection-font;
+    font-size : $titleSection-font-size;
+    font-weight : $titleSection-font-weight;
+    line-height : $titleSection-line-height;
+}
+
+h2 {
+    font-family : $titleSection-font;
+    font-size : $titleSection-font-size;
+    font-weight : $titleSection-font-weight;
+    line-height : $titleSection-line-height;
+}
+
+h3 {
+    font-family : $cardTitle-font;
+    font-size : $cardTitle-font-size;
+    font-weight : $cardTitle-font-weight;
+    line-height: $cardTitle-line-height;
+}
+
+p {
+    font-size: 0.875rem;
+}
+
+a {
+    text-decoration: none;
+    color : $black;
+}
+
+a:hover, button:hover {
+    cursor: pointer;
+}
+
+i {
+    color: $blue;
+}
+
+strong {
+    font-weight: 700;
+}
+
+span {
+    font-family : $subText-font;
+    font-size : $subText-font-size;
+    font-weight : $subText-font-weight;
+    line-height : $subText-line-height;
+}

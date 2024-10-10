@@ -11,7 +11,7 @@
 .mainInfo .infoMark {
     width: 24px;
     height: 24px;
-    border: 1px solid var(--grey);
+    border: 1px solid $grey;
     border-radius: 12px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -30,6 +30,6 @@
 }
 
 .mainInfo span {
-    font-size : var(--standard-font-size);
-    font-weight : var(--standard-font-weight);
+    font-size : $standard-font-size;
+    font-weight : $standard-font-weight;
 }

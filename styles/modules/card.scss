@@ -1,6 +1,6 @@
 .card {
     border-radius: 20px;
-    background-color: var(--white);
+    background-color: $white;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -98,11 +98,11 @@
 }
 
 .cardText .starIcon label {
-    color: var(--blue);
+    color: $blue;
 }
 
 .cardText .starIcon label:nth-child(2) {
-    color: var(--grey);
+    color: $grey;
 }
 
 @media only screen and (min-width: 1024px) {

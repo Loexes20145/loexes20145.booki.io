@@ -31,21 +31,21 @@
         -ms-flex-positive: 1;
             flex-grow: 1;
     text-align: center;
-    border-bottom: 2px solid var(--grey);
+    border-bottom: 2px solid $grey;
 }
 
 .header .menu li.menuItem:hover {
-    border-bottom-color: var(--blue);
+    border-bottom-color: $blue;
     cursor: pointer;
 }
 
 .header .menu li.menuItem:active {
-    border-bottom-color: var(--blue);
+    border-bottom-color: $blue;
 }
 
 .header .menu li.menuItem:hover a,
 .header .menu li.menuItem:active a {
-    color: var(--blue);
+    color: $blue;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -73,14 +73,14 @@
         padding-bottom: 0;
         padding-top: 1.125rem;
         border-bottom: none;
-        border-top: 2px solid var(--white);
+        border-top: 2px solid $white;
     }
 
     .header .menu li.menuItem:hover {
-        border-top: 2px solid var(--blue);
+        border-top: 2px solid $blue;
     }
     
     .header .menu li.menuItem:active {
-        border-top: 2px solid var(--blue);
+        border-top: 2px solid $blue;
     }
 }
